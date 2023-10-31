@@ -21,23 +21,14 @@ class StockMetrics(StockData):
             valid_prices = []
             for num in row[1:]:
                 num = num.strip()
-                
-                if num and num.replace('.', '', 1).isdigit():
+                if num and num.replace('.', '', 1):
                    price = float(num)
                    valid_prices.append(price)
             print(valid_prices)
-
-            
             
             sum_averages = sum(valid_prices)/ len(valid_prices)
             averages.append(round(sum_averages,3))
             print(averages)
-
-                  
-
-                  
-
-                
         return averages
 
     def median02(self):
