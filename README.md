@@ -25,4 +25,4 @@ The purpose of this project is ________. (Describe the main goals of the project
 * etc. 
 
 ## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
+The purpose of this project was that we had to evaluate the price of the stocks every week to see if there was a difference between each date. The hypothesis that I belived was that if it would stay consistant throughout the weeks. A few problems I faced was the fact that there would data that was inputed as an empty string so Removing it was a priority additionally was making sure the code would run perfectly with loops. 
